@@ -1,0 +1,149 @@
+body {
+font-family: 'Times New Roman', Times, serif;
+}
+/* Logo Styles */
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 50px;  /* Adjust the size of the logo */
+  height: auto;
+  margin-right: 15px;  /* Space between the logo and title */
+}
+
+/* General Header Styles */
+header {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #28a745; /* Dark Green Background */
+  padding: 10px 20px;
+}
+
+.header-content {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.green {
+  color: green; /* Green color */
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact a {
+  color: white; /* White color for contact links */
+  text-decoration: none;
+}
+
+/* Navigation Styles */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white; /* Dark color for normal state */
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: black; /* Light green on hover */
+}
+
+/* Main Content Styles */
+main {
+  background-color: #e9f3e9; /* Light green background */
+  padding: 20px;
+}
+
+/* Sign In/Login Buttons */
+.auth-options {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.auth-options a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #28a745; /* Green background */
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.auth-options a:hover {
+  background-color: #218838; /* Darker green on hover */
+  color: #ffffff;
+}
+
+.auth-options .logout-button {
+  background-color: #dc3545; /* Red for logout */
+  color: #ffffff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.auth-options .logout-button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 5px 0;
+  }
+
+  .auth-options {
+    position: relative;
+    top: auto;
+    right: auto;
+    margin-top: 15px;
+  }
+
+  /* Adjust Logo Size on Mobile */
+  .logo-img {
+    width: 40px;
+    height: auto;
+  }
+}

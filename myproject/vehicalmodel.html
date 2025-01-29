@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Models</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <div id="header-placeholder"></div>
+    <link rel="stylesheet" href="vehicalmodel.css">
+</head>
+<body>
+ <main>
+        <section id="carouselSection" class="mb-5">
+          <div id="vehicleCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <img src="cimg/bmw3.jpg" class="d-block w-100" alt="Car 1">
+                      <div class="carousel-caption d-none d-md-block">
+                          <h5>Luxury Cars</h5>
+                          <p>Experience comfort and style.<a href="home.html" class="book-btn">Book Now</p></a>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <img src="cimg/in3.jpg" class="d-block w-100" alt="Car 2">
+                      <div class="carousel-caption d-none d-md-block">
+                          <h5>Economy Cars</h5>
+                          <p>Affordable and efficient for your needs.<a href="home.html" class="book-btn">Book Now</p></a>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <img src="cimg/thar1.jpg" class="d-block w-100" alt="Car 3">
+                      <div class="carousel-caption d-none d-md-block">
+                          <h5>Sports Cars</h5>
+                          <p>Feel the thrill on the road.<a href="home.html" class="book-btn">Book Now</p></a>
+                      </div>
+                  </div>
+              </div>
+              <!-- Controls -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#vehicleCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#vehicleCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button>
+          </div>
+        </main>
+        <section class="vehicle-models">
+          <h2>Our Vehicle Fleet</h2>
+          <div class="vehicles-container">
+              <!-- Individual Vehicle Card -->
+              <div class="vehicle-card">
+                  <img src="images/Royal-Enfield-Classic-350.jpg" alt="Royal Enfield Classic 350">
+                  <h3>Royal Enfield Classic 350</h3>
+                  <p class="price">₹800 / day</p>
+                  <a href="home.html" class="book-btn">Book Now</a>
+              </div>
+              <div class="vehicle-card">
+                  <img src="images/himalayan.jpg" alt="Royal Enfield Himalayan">
+                  <h3>Royal Enfield Himalayan</h3>
+                  <p class="price">₹1500 / day</p>
+                  <a href="home.html" class="book-btn">Book Now</a>
+              </div>
+              <div class="vehicle-card">
+                  <img src="images/activa-6g.jpeg" alt="Activa 6G">
+                  <h3>Activa 6G</h3>
+                  <p class="price">₹600 / day</p>
+                  <a href="home.html" class="book-btn">Book Now</a>
+              </div>
+              <div class="vehicle-card">
+                  <img src="images/jeep.jpg" alt="JEEP Wrangler">
+                  <h3>JEEP Wrangler</h3>
+                  <p class="price">₹4500 / day</p>
+                  <a href="home.html" class="book-btn">Book Now</a>
+              </div>
+              <div class="vehicle-card">
+                  <img src="images/swift.jpg" alt="Maruti Swift">
+                  <h3>Maruti Swift</h3>
+                  <p class="price">₹2500 / day</p>
+                  <a href="home.html" class="book-btn">Book Now</a>
+              </div>
+              <div class="vehicle-card">
+                  <img src="images/Mahindra-XUV700-Bison-Edition-img4.jpg" alt="Mahindra XUV 700">
+                  <h3>Mahindra XUV 700</h3>
+                  <p class="price">₹4000 / day</p>
+                  <a href="home.html" class="book-btn">Book Now</a>
+              </div>
+          </div>
+      </section>
+      
+        <div class="testimonial">
+            <p>
+                “This was my first time renting from car rental. And over all it was a wonderful experience. 
+                I have no complaints. The service rep helped me find the best rental to suit my needs. 
+                I also love the fact that you guys provide luxury rentals at a great price. 
+                I will definitely rent with this company again.”
+            </p>
+            <span>- Suraj Sridhar</span>
+        </div>
+    </section>
+    <script src="vehicalmodel.js"></script>
+    <script src="headerLoader.js"></script>
+</body>
+</html>
